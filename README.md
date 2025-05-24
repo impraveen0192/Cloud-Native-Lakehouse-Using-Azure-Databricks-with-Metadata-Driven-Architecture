@@ -44,3 +44,20 @@ Edit
   },
   ...
 ]
+
+
+Directory Structure in Azure Storage
+pgsql
+Copy
+Edit
+📁 bronze/
+  ├── sample_data/
+  │   ├── customer_master.csv
+  │   ├── sales_transaction.csv
+  │   └── product_master.json
+  └── configs/
+      └── metadata.json
+
+📁 silver/
+📁 gold/
+📁 dq_logs/
